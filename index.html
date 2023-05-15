@@ -95,37 +95,54 @@
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
         <h1>Contact Sales</h1>
 
-    <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+    <!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
 
-        <input type=hidden name="oid" value="00DDo000001Ckfk">
-        <input type=hidden name="retURL" value="https://fo1682670282175.lightning.force.com">
+<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 
-        <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20"
-            type="text" /><br>
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
 
-        <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
 
-        Course:<select id="00NDo000007N122" name="00NDo000007N122" title="Course" >
-            <option value="">--None--</option>
-            <option value="IPC Certification Course">IPC Certification Course</option>
-            <option value="IPC Certification Course 1">IPC Certification Course 1</option>
-            <option value="IPC Certification Course 2">IPC Certification Course 2</option>
-            <option value="IPC Certification Course 3">IPC Certification Course 3</option>
-            <option value="IPC Certification Course 4">IPC Certification Course 4</option>
-        </select><br>
+<input type=hidden name="oid" value="00DDo000001Ckfk">
+<input type=hidden name="retURL" value="https://www.ipc.org/ipc-certifications">
 
-        Price:<input id="00NDo000007N127" name="00NDo000007N127" size="20" type="text" readonly/><br>
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+<!--  these lines if you wish to test in debug mode.                          -->
+<!--  <input type="hidden" name="debug" value=1>                              -->
+<!--  <input type="hidden" name="debugEmail"                                  -->
+<!--  value="ratankumar.nampelly@forsysinc.com">                              -->
+<!--  ----------------------------------------------------------------------  -->
 
-        <label for="company">Company</label><input id="company" maxlength="40" name="company" size="20"
-            type="text" /><br>
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
 
-        District:<input id="00NDo000007N12H" maxlength="255" name="00NDo000007N12H" size="20" type="text" /><br>
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
 
-        State:<input id="00NDo000007N12C" maxlength="255" name="00NDo000007N12C" size="20" type="text" /><br>
+Course:<select  id="00NDo000007N122" name="00NDo000007N122" title="Course"><option value="">--None--</option><option value="IPC Certification Course">IPC Certification Course</option>
+<option value="IPC Certification Course 1">IPC Certification Course 1</option>
+<option value="IPC Certification Course 2">IPC Certification Course 2</option>
+<option value="IPC Certification Course 3">IPC Certification Course 3</option>
+<option value="IPC Certification Course 4">IPC Certification Course 4</option>
+</select><br>
 
-        <input type="submit" name="submit">
+Price:<input  id="00NDo000007N127" name="00NDo000007N127" size="20" type="text" /><br>
 
-    </form>
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+
+District:<input  id="00NDo000007N12H" maxlength="255" name="00NDo000007N12H" size="20" type="text" /><br>
+
+State:<input  id="00NDo000007N12C" maxlength="255" name="00NDo000007N12C" size="20" type="text" /><br>
+
+<input type="submit" name="submit">
+
+</form>
+
 
 </body>
 
